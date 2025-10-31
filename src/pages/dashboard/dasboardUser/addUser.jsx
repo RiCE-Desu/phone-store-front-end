@@ -69,7 +69,7 @@ function AddUser() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="flex flex-col gap-4 pt-18 px-48">
         {/* Nama Lengkap */}
         <FormField
           control={form.control}

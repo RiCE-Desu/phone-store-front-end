@@ -10,10 +10,10 @@ export default function LayoutDashboard({ children }) {
       <div className="flex-1 flex flex-col">
         {/* Navbar/Header */}
         <header className="h-16 bg-white shadow-md flex items-center justify-between px-6">
-          <h1 className="text-lg font-semibold">Dashboard</h1>
+          <h1 className="text-lg text-blue-500 font-semibold">Dashboard</h1>
           <div className="flex items-center gap-4">
-            <div className="w-9 h-9 rounded-full bg-gray-300 flex items-center justify-center">
-              <span className="text-sm font-semibold">IA</span>
+            <div className="w-9 h-9 rounded-full bg-gradient-to-br from-blue-400 via-white to-blue-500 flex items-center justify-center">
+              <span className="text-sm font-semibold">RFI</span>
             </div>
           </div>
         </header>

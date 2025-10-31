@@ -49,7 +49,7 @@ function Register() {
 
   return (
     <>
-      <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-purple-100 via-white to-purple-200">
+      <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 via-white to-blue-200">
         <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-8">
           <h2 className="text-2xl font-bold text-center text-gray-800 mb-6">
             Buat Akun Baru
@@ -118,7 +118,7 @@ function Register() {
               <input
                 type="password"
                 {...register("confirmPassword")}
-                className="w-full border border-gray-300 p-2 rounded-lg focus:ring-2 focus:ring-purple-400 focus:outline-none"
+                className="w-full border border-gray-300 p-2 rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
                 placeholder="Ulangi password"
               />
               {errors.confirmPassword && (
@@ -136,7 +136,7 @@ function Register() {
               <input
                 type="number"
                 {...register("age")}
-                className="w-full border border-gray-300 p-2 rounded-lg focus:ring-2 focus:ring-purple-400 focus:outline-none"
+                className="w-full border border-gray-300 p-2 rounded-lg focus:ring-2 focus:ring-blue-400 focus:outline-none"
                 placeholder="Masukkan umur"
               />
               {errors.age && (
@@ -149,7 +149,7 @@ function Register() {
             {/* Tombol Register */}
             <button
               type="submit"
-              className="w-full bg-purple-500 hover:bg-purple-600 text-white font-medium py-2 px-4 rounded-lg transition"
+              className="w-full bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg transition"
             >
               Register
             </button>
@@ -160,7 +160,7 @@ function Register() {
             Sudah punya akun?{" "}
             <Link
               to="/"
-              className="text-purple-500 hover:text-purple-600 font-medium"
+              className="text-blue-500 hover:text-blue-600 font-medium"
             >
               Login di sini
             </Link>

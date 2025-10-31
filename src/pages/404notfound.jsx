@@ -3,7 +3,7 @@ function NotFound() {
     <>
       <div>404 Not Found</div>
       <p>Halaman tidak ditemukan</p>
-      <p>Balik, ngapain di sini</p>
+      <p>Jangan nyari yang gaada, syukuri apa yang sudah ada</p>
     </>
   );
 }
